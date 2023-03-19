@@ -1,0 +1,9 @@
+data/tech_stocks.h5 filter=lfs diff=lfs merge=lfs -text
+data/tech_stocks_.h5 filter=lfs diff=lfs merge=lfs -text
+results/DnnAgent filter=lfs diff=lfs merge=lfs -text
+results/FixedAction_0 filter=lfs diff=lfs merge=lfs -text
+results/FixedAction_1 filter=lfs diff=lfs merge=lfs -text
+results/FixedAction_2 filter=lfs diff=lfs merge=lfs -text
+results/RandomAgent filter=lfs diff=lfs merge=lfs -text
+best_agents/best_agent filter=lfs diff=lfs merge=lfs -text
+best_agents/best_agent.pkl filter=lfs diff=lfs merge=lfs -text
