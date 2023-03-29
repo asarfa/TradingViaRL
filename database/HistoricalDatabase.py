@@ -7,7 +7,7 @@ from database.request import download_yf_data
 class HistoricalDatabase:
     def __init__(self, tickers: list, name: str = None):
         self.exchange = "NASDAQ"
-        self.path_to_data = os.path.abspath(__file__).replace('\database\HistoricalDatabase.py', "\data")
+        self.path_to_data = "data"
         self.init(tickers, name)
 
     @staticmethod

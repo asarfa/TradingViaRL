@@ -184,8 +184,7 @@ class Agent(metaclass=abc.ABCMeta):
 
     def _get_path(self, episode: str = None):
         ticker = self.learn_env.ticker
-        base = os.path.dirname(os.path.abspath(__file__))
-        agent = os.path.join(base, 'savings', self.get_name(), ticker)
+        agent = os.path.join('savings', self.get_name(), ticker)
         if not os.path.exists(agent):
             os.makedirs(agent)
         return os.path.join(agent, 'Episode'+str(episode))
